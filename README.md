@@ -2,7 +2,7 @@ Manga Tagger
 ---
 
 [![mt-hub-img]][mt-hub-lnk] 
-[![Python tests](https://github.com/Banh-Canh/Manga-Tagger/actions/workflows/Run_Tests.yml/badge.svg)](https://github.com/Banh-Canh/Manga-Tagger/actions/workflows/Run_Tests.yml)
+[![Python tests](https://github.com/dobbleg1000/Manga-Tagger/actions/workflows/Run_Tests.yml/badge.svg)](https://github.com/dobbleg1000/Manga-Tagger/actions/workflows/Run_Tests.yml)
 ## Descriptions
 
 This fork doesn't require FMD2. Running MangaTagger.py will make it watch the directory configured in the settings.json.
@@ -25,12 +25,12 @@ input Files still have to be named like this (they can be in their own `%MANGA%`
 More infos:
 https://github.com/Inpacchi/Manga-Tagger
 
-[Check the wiki for install and usage instructions](https://github.com/Banh-Canh/Manga-Tagger/wiki)
+[Check the wiki for install and usage instructions](https://github.com/dobbleg1000/Manga-Tagger/wiki)
 ---
 
 ## Aditional info
 
-I recommend using this with my FMD2 docker image: https://hub.docker.com/r/banhcanh/docker-fmd2
+I recommend using this with banhcanh FMD2 docker image: https://hub.docker.com/r/banhcanh/docker-fmd2
 
 **Note**:
 - Environnement Variables overwrite the settings.json. In docker, it is only possible to configure with environnement variables.
@@ -40,5 +40,5 @@ I recommend using this with my FMD2 docker image: https://hub.docker.com/r/banhc
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-[mt-hub-img]: https://img.shields.io/docker/pulls/banhcanh/manga-tagger.svg
-[mt-hub-lnk]: https://hub.docker.com/r/banhcanh/manga-tagger
+[mt-hub-img]: https://img.shields.io/docker/pulls/dobbleg1000/manga-tagger.svg
+[mt-hub-lnk]: https://hub.docker.com/r/dobbleg1000/manga-tagger
