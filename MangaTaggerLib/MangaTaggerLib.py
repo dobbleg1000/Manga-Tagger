@@ -542,7 +542,7 @@ def construct_comicinfo_xml(metadata: Metadata, chapter_number, logging_info, vo
     soup = BeautifulSoup(metadata.description, "html.parser")
     summary.text = soup.get_text()
 
-    publish_date = datetime.strptime(metadata.scrape_date, '%Y-%m-%d %I:%M %p %Z').date()
+    publish_date = datetime.strptime(metadata.scrape_date[:metadata.scrape_date.rfind(' ')], '%Y-%m-%d %I:%M %p').date()
     year = SubElement(comicinfo, 'Year')
     year.text = f'{publish_date.year}'
 
